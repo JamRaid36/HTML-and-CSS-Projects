@@ -1,0 +1,16 @@
+p {
+	color: #FF1493;
+	background-color: Black;
+	font-size: large;
+	text-align: center;
+}
+
+h1 {
+		color: Black;
+		text-shadow: 5px 5px 4px blue;
+}
+
+h2 {
+		color: green;
+		text-shadow: 5px 5px 4px red;
+}
