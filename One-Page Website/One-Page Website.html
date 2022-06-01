@@ -3,17 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Lap of Lux Hotel</title>
+		<link rel="stylesheet" href="./css/one_page_website.css"
 	</head>
 	<body>
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>Home</li></a>
-					<a href="#gallery"><li>Gallery</li></a>
-					<a href="#live"><li>Entertainment</li></a>
-					<a href="#contact"><li>Book Your Stay</li></a>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<li><a href="#home" id="link">Home</a>
+					<li><a href="#gallery">Gallery</a>
+					<li><a href="#live">Entertainment</a>
+					<li><a href="#contact">Book Your Stay</a>
 				</ul>
 			</div>
 		</div>
@@ -21,19 +22,19 @@
 		
 		<!-- Home -->
 		<div id="home">
-			<div>
-				<div>
-					<span><h1>Lap of Lux Hotel</h1></span>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main"><h1>Lap of Lux Hotel</h1></span>
 					<p>Welcome to the lap of luxery, get ready to have an out of this world experience!</p>
 				</div>
 			</div>
 		</div>
 		<!-- END Home -->
 		
-		<!-- MERCH-GALLERY -->
+		<!-- PHOTO-GALLERY -->
 		<section>
 			<div id="gallery">
-				<h1>Luxery Features</h1>
+				<h1>Luxury Features</h1>
 				<div>
 				
 					<!-- PHOTO-CONTAINER 1 -->
@@ -163,29 +164,31 @@
 		<!-- RSVP -->		
 		<section>
 			<div id="contact">
-				<div>
-					<h1>Book Your Stay Now</h1>
-					<div>
-						<h2><span>Luxery is only a few clicks away</span>
+				<div class="container">
+					<div class="heading-padding">
+						<h1 class="heading-padding">Book Your Stay Now</h1>
+						<div class="reservation">
+							<h2><span>Luxery is only a few clicks away</span>
 							<br />Book your vacation today!
-						</h2>
-						<p>
-							Lock in your room dates below
-						</p>
-						<div>
-							<form action="" method="post">
-								<input class="rsvp" type="text" value="First Name">
-								<input class="rsvp" type="text" value="Last Name">
-								<input class="rsvp" type="text" value="Email Address">
-								<input class="rsvp" type="text" value="Phone Number">
-								<input class="rsvp" type="text" value="Dates">
-								<div class="form-spacer">
-									<label class="terms">Terms and Conditions</label>
-								</div>
-								<div>
-									<input type="submit" value="Submit">
-								</div>
-							</form>
+							</h2>
+							<p>
+								Lock in your room dates below
+							</p>
+							<div class="form-rsvp">
+								<form action="" method="post">
+									<input class="rsvp" type="text" value="First Name">
+									<input class="rsvp" type="text" value="Last Name">
+									<input class="rsvp" type="text" value="Email Address">
+									<input class="rsvp" type="text" value="Phone Number">
+									<input class="rsvp" type="text" value="Dates">
+									<div class="form-spacer">
+										<label class="terms">Terms and Conditions</label>
+									</div>
+									<div>
+										<input type="submit" value="Submit">
+									</div>
+								</form>
+							</div>
 						</div>
 					</div>
 				</div>
